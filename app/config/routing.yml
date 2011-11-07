@@ -2,3 +2,7 @@
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
+
+_acme_error:
+    pattern:  /error
+    defaults: { _controller: AcmeErrorBundle:Default:index }

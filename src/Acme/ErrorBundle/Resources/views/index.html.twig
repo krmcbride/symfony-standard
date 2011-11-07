@@ -1,0 +1,9 @@
+{% extends 'AcmeErrorBundle::layout.html.twig' %}
+
+{% block content %}
+
+	<p>index.html.php before subrequest</p>
+	{% render 'AcmeErrorBundle:Default:subrequest' %}
+	<p>index.html.php after subrequest</p>
+
+{% endblock %}
